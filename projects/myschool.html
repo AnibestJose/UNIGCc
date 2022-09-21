@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./slider.css"> -->
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script src="./jscript/bootstrap.bundle.js"></script>
+    <script src="./jscript/index.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <title>My school project</title>
+</head>
+<body onload="slider()">
+    <div class="banner">
+        <div class="slider">
+            <img src="images/img1.jpg" id="slideImg">
+        </div>
+        <div class="overlay"></div>
+    </div>
+    <div class="nav" id="navbar">
+        <div class="logo-div">
+          <img src="./images/logo.png" width="55px">
+          <h1>UNI<span>GC</span></h1>
+        </div>
+        <div class="nav-list">
+            <img src="./images/exitIcon.png" class="list-btn" id="exit" width="20px">
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+            <img src="./images/menuIcon.png" class="list-btn"  id="menu" width="40px" onclick="displaymenu()">
+
+            <button>LOGIN</button>
+        
+    </div>
+
+    <div class="home-cont">
+        <div class="home-content">
+            <h3>Welcome to</h3>
+            <h1>universal global college</h1>
+            <h3>transforming lives since 1982</h3>
+        </div>
+        
+         <a class="btn-home" href="loginpage.html">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            REGISTER NOW
+        </a>	
+    
+        <!-- <a class="btn-home" href="form.html">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            SIGNUP
+        </a>	  -->
+    </div>
+
+    <section>
+      <div class="about">
+        <div class="d-flex p-2">
+          <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active abtslide" >
+                  <!-- <img src="./images/schoolimg.jpg" class="d-block w-100"> -->
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>MISSION</h5>
+                    <p>Our is a vital resource for building and sustaining community, standing
+                       ready to serve in times of emergency, airing locally relevant information 
+                        and entertainment to listeners, creating a forum through which every voice 
+                         can be heard. Our station offers instruction and experience in radio production 
+                          and broadcasting skills to members of all ages.</p>
+                  </div>
+                </div>
+                <div class="carousel-item abtslide">
+                  <!-- <img src="./images/schoolimg.jpg" class="d-block w-100"  class="d-block w-100"> -->
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>VALUES</h5>
+                    <p>Our is a vital resource for building and sustaining community, standing 
+                      ready to serve in times of emergency, airing locally relevant information 
+                       and entertainment to listeners, creating a forum through which every voice 
+                        can be heard. Our station offers instruction and experience in radio production 
+                         and broadcasting skills to members of all ages.</p>
+                  </div>
+                </div>
+                <div class="carousel-item abtslide">
+                  <!-- <img src="./images/schoolimg.jpg" class="d-block w-100"  class="d-block w-100" > -->
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>VISION</h5>
+                    <p>Our is a vital resource for building and sustaining community, standing 
+                      ready to serve in times of emergency, airing locally relevant information 
+                       and entertainment to listeners, creating a forum through which every voice 
+                        can be heard. Our station offers instruction and experience in radio production 
+                         and broadcasting skills to members of all ages.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+  
+          <div class="container-fluid abt-image">
+            <img src="./images/schoolimg.jpg" class="img-fluid">
+        </div>
+      </div>
+      <!-- <img src="./images/schoolimg.jpg" class="d-block w-100" > -->
+    </section>
+
+
+    <!-- <section>
+        <div class="containar">
+            <div class="top-content">
+                <h1>About</h1>
+            </div>
+            <div class="buttom-content">
+                <div class="left">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./images/schoolimg.jpg" class="d-block w-100" >
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/school2.jpeg" class="d-block w-100" >
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/schoo;3.jpg" class="d-block w-100" >
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="right">
+
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+    <script>
+        var slideImg = document.getElementById('slideImg');
+
+        var images = new Array(
+            "images/img1.jpg",
+            "images/img2.jpg",
+            "images/img6.jpg",
+            "images/img4.jpg"
+        );
+
+    var len = images.length;
+    var i = 0;
+
+    function slider(){
+        if(i > len-1){ 
+            i = 0;
+        }
+        slideImg.src = images[i];
+        i++;
+        setTimeout('slider()', 5000);
+    }
+
+        let display = document.getElementById('menu');
+
+        function displaymenu(){
+            display.style.visibility = "visible";
+        }
+    </script>
+    
+</body>
+</html>
